@@ -1,9 +1,10 @@
 import java.util.*;
  class switchCase{
     public  static void main(String args[]){
-        Scanner sc = new Scanner(System.in);
+        @SuppressWarnings("resource")
+        Scanner inp = new Scanner(System.in);
         System.out.println("Enter Your week Day:");
-        int n = sc.nextInt();
+        int n = inp.nextInt();
         switch (n) {
                case 1:
                System.out.println("Monday");
