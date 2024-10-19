@@ -8,7 +8,6 @@ public class BubbleSort {
                     arr[j + 1] = temp;
                 }
             }
-            // Printing array after each pass
         }
                     for (int p = 0; p < arr.length; p++) {
                 System.out.print(arr[p] + " ");
